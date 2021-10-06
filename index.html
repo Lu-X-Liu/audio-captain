@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Captain</title>
+    <link rel="shortcut icon" type="image/svg" href="./images/favicon.svg">
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Noto+Sans+TC:wght@500;700&display=swap" rel="stylesheet">
+    <script async src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html"><img id="logo" src="./images/ac_logo.svg"></a>
+            <nav>
+                <ul>
+                    <li id="log-in"><a href="login.html">log in</a></li>
+                </ul>
+            </nav>  
+        </div>   
+    </header>
+    <main>
+        <div class="header-sticky hide">
+            <div class="container sticky-container">
+                <div class="sticky-header-left">
+                   <img class="sticky-logo" src="./images/ac_logo.svg" alt="audio captain logo"> 
+                </div>
+                <div class="sticky-header-right">
+                    <button id="sticky-btn" class="btn"><a href="register.html">Start free trial</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="hero">
+            <div class="hero-container container">
+                <div class="hero-text">
+                    <h1>Navigate audio books better</h1>
+                    <p class="hero-intro">For every book we carry you can listen to a crafted summary 
+                        besides the book itself. It helps you to find books you 
+                        will definitly enjoy before you dive in.
+                    </p>
+                    <button class="btn"><a href="register.html">Start free trial</a></button>             
+                </div>                
+                <img src="./images/AC-Hero-760w.png" 
+                     srcset="./images/AC-Hero-760w.png 760w,
+                             ./images/AC-Hero-960w.png 960w,
+                             ./images/AC-Hero-1080w.png 1080w,
+                             ./images/AC-Hero-1280w.png 1280w"
+                    sizes="(min-width: 1336px) 1280px,
+                           (min-width: 1024px) 600px,
+                           (min-width: 921px) 41vw,
+                           (min-width: 768px) 360px,
+                           (min-width: 539px) calc(60vw -1.5rem),
+                           calc(100vw - 2.5rem)"
+                        alt="A woman navigating with the audio captain app 
+                        in a large orange paper boat" id="hero-img">                                                                   
+            </div>            
+        </div>
+        <div class="container feature-container">
+            <h2 class="feature-headline">Get to know a book the right way</h2>
+            <div class="feature-wrapper">
+                <div class="features">
+                    <div class="feature-icons">
+                        <svg class="single-icon" xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 24 24">
+                            <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6 5.999l-5.621 2.986c-.899-.104-1.806.191-2.474.859-.662.663-.95 1.561-.862 2.428l-3.043 5.728 5.724-3.042c.884.089 1.772-.205 2.432-.865.634-.634.969-1.524.859-2.473l2.985-5.621zm-5.97 7.22c-.689 0-1.25-.559-1.25-1.249-.001-.691.559-1.251 1.25-1.25.69 0 1.25.56 1.25 1.25-.001.689-.56 1.249-1.25 1.249z"/>
+                        </svg>                        
+                    </div>
+                    <div>
+                        <h3>Understand a book fast </h3>
+                        <p class="feature-text">Listen to a book summary (non-fiction) or a review 
+                            (fiction) in under 9 minutes to get the key ideas in any book.
+                        </p>  
+                    </div>                        
+                </div>
+                <div class="features feature-mid-column">
+                    <div class="feature-icons">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 24 24">
+                            <path d="M2 12c.229-6.013 4.042-11 10-11s9.771 4.987 10 11h-2c-.256-4.918-3.539-8.031-8-8.022-4.461-.009-7.744 3.104-8 8.022h-2zm22 4.039c0-1.126-.913-2.039-2.039-2.039h-2.961v9h2.961c1.126 0 2.039-.913 2.039-2.039v-4.922zm-24 0c0-1.126.913-2.039 2.039-2.039h2.961v9h-2.961c-1.126 0-2.039-.913-2.039-2.039v-4.922z"/>
+                        </svg>
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="2px"
+                            viewBox="0 0 33.994 33.994" style="enable-background:new 0 0 33.994 33.994;" xml:space="preserve" height="43">
+                            <g>
+                                <path d="M27.125,0H6.867C5.59,0,4.562,1.033,4.562,2.309v29.377c0,1.272,1.028,2.308,2.305,2.308h20.258
+                                    c1.273,0,2.306-1.035,2.306-2.308V2.309C29.433,1.033,28.399,0,27.125,0z M16.997,33.129c-0.758,0-1.371-0.613-1.371-1.37
+                                    c0-0.758,0.613-1.372,1.371-1.372c0.756,0,1.371,0.614,1.371,1.372C18.368,32.516,17.753,33.129,16.997,33.129z M27.098,29.186
+                                    H6.896V2.774h20.202V29.186z"/>
+                            </g>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3>Listen or read</h3>
+                        <p class="feature-text">You can choose to listen to the audio books or 
+                            read the digital	transcript or alternate between listening or reading.
+                        </p>
+                    </div>                  
+                </div>
+                <div class="features">
+                    <div class="feature-icons">
+                        <svg class="single-icon" height="45" viewBox="0 0 480.00958 480" width="45" xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                                <path d="m128 104.003906v-32c0-4.417968-3.582031-8-8-8h-112c-4.417969 0-8 3.582032-8 8v32zm0 0"/>
+                                <path d="m0 120.003906v264h128v-264zm96 104h-64c-4.417969 0-8-3.582031-8-8v-64c0-4.417968 3.582031-8 8-8h64c4.417969 0 8 3.582032 8 8v64c0 4.417969-3.582031 8-8 8zm0 0"/>
+                                <path d="m0 432.003906v40c0 4.417969 3.582031 8 8 8h112c4.417969 0 8-3.582031 8-8v-40zm0 0"/>
+                                <path d="m0 400.003906h128v16h-128zm0 0"/>
+                                <path d="m144 400.003906h104v16h-104zm0 0"/>
+                                <path d="m248 32.003906v-24c0-4.417968-3.582031-7.99999975-8-7.99999975h-88c-4.417969 0-8 3.58203175-8 7.99999975v24zm0 0"/>
+                                <path d="m144 88.003906h104v296h-104zm0 0"/>
+                                <path d="m144 432.003906v40c0 4.417969 3.582031 8 8 8h88c4.417969 0 8-3.582031 8-8v-40zm0 0"/>
+                                <path d="m144 48.003906h104v24h-104zm0 0"/>
+                                <path d="m263.808594 165.667969 4.28125 16.433593 135.484375-36.128906-4.285157-16.433594zm0 0"/>
+                                <path d="m330.664062 421.949219 135.480469-36.128907-8.578125-32.886718-135.488281 36.128906zm0 0"/>
+                                <path d="m453.527344 337.453125-45.910156-176-135.488282 36.128906 45.910156 176zm0 0"/>
+                                <path d="m259.769531 150.1875 135.476563-36.125-11.484375-44.058594c-1.183594-4.265625-5.542969-6.816406-9.839844-5.757812l-120 32c-4.238281 1.160156-6.765625 5.5-5.683594 9.757812zm0 0"/>
+                                <path d="m470.183594 401.300781-135.488282 36.128907 9.542969 36.574218c.554688 2.0625 1.90625 3.820313 3.761719 4.882813 1.207031.730469 2.589844 1.117187 4 1.117187.699219 0 1.398438-.082031 2.078125-.238281l120-32c4.238281-1.160156 6.765625-5.503906 5.683594-9.761719zm0 0"/>                       
+                            </g>                   
+                        </svg>                        
+                    </div>
+                    <div>
+                        <h3>A wide selection </h3>
+                        <p class="feature-text">With over 50,000 books in stock, the most
+                            comprehensive collection of its kind. 
+                            We guarantee you will find the books you need.
+                        </p>                        
+                    </div>
+
+                </div>                
+            </div>
+            <button class="btn"><a href="register.html">Start free trial</a></button>
+        </div>
+        <div class="benefit-container container">
+            <div class="benefits">
+                <h2 class="b-headline-1">Never be disappointed halfway into a book again.</h2>
+                <p class="body-text b-text-1 benefit-para">Our team of talented writers craft a summary / review to 
+                    help you quickly get the main ideas of every book as well as the feel of it. 
+                    So you always have a good idea of a book before you start reading.
+                </p>
+                <img src="./images/app-UI-summary-Phone.png" 
+                     srcset="./images/app-UI-summary.png 806w,
+                             ./images/app-UI-summary-Phone.png 606w" 
+                     sizes="(min-width: 568px) 350px, 270px"
+                     alt="Audio book App UI: summary" class="app-ui" id="app-summary">
+                <button class="btn b-1-btn benefit-btn"><a href="register.html">Start free trial</a></button>
+            </div>
+            <div class="benefits">
+                <h2 id="community" class="b-headline-2">Nurture your mind in a community of curious minds</h2>
+                <p class="body-text b-text-2 benefit-para">Connect with writers and other book-savvy people 
+                    via our app. Check out our podcasts with authors and engage in 
+                    dialogues with them. Form discussion groups and virtual book clubs.  
+                    Ideas and thoughts are made better while exchanged.
+                </p>
+                <img src="./images/app-UI-community-Phone.png"
+                     srcset="./images/app-UI-community-Phone.png 429w,
+                             ./images/app-UI-community.png 644w" 
+                     sizes="(min-width: 568px) 280px, 230px"
+                             alt="Audio book App UI: community" class="app-ui" id="app-community">
+                <button class="btn b-2-btn benefit-btn"><a href="register.html">Start free trial</a></button>
+            </div>
+            <div class="benefits growth">
+                <h2 class="b-headline-3">A small investment for a big opportunity to grow</h2>
+                <p class="body-text b-text-3 benefit-para">Make books part of your everyday life, gain access to over 
+                    50,000 books that are worth a total value of 
+                    <span class="dollar-sign">$</span><span class="amount">730,000</span>. 
+                    A good reading habit makes you smarter, more successful, 
+                    a better communicator and overall a better version of yourself. 
+                </p>
+                <img src="./images/audio-book-value-Phone.png" 
+                     srcset="./images/audio-book-value.png 1740w,
+                             ./images/audio-book-value-Phone.png 750w"
+                     sizes="(min-width: 1024px) 600px, 350px"
+                     alt="Stacks of books" class="app-ui" id="book-stacks">
+            </div>
+        </div>
+        <div class="free-trial">
+            <div class="container">
+                <div class="frame">
+                    <p class="body-text" id="trial-text">
+                        Enjoy your unlimited access for 14 days. Love it and keep investing in yourself for only 
+                        <span class="dollar-sign">$</span><span class="amount">8.75</span> 
+                        a month, or simply cancel before the trail ends.
+                    </p>
+                    <button class="btn trial-btn"><a href="register.html">Start free trial</a></button>
+                </div>                 
+            </div>          
+        </div>
+        <div class="social-approval">
+            <div class="container">
+                <div class="mobile-user-review">                
+                    <div class="mobile-user-info">
+                        <img src="./images/user-1-phone.jpg" alt="user avatar 1" class="mobile-avatar">
+                        <div class="starts-and-names">
+                            <div class="user-names">
+                                <h4 class="mobile-user-name">Joshua Watson</h4>
+                            </div>                             
+                            <div class="stars">
+                                <svg class="star" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg class="star" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg class="star" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg class="star" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg class="star" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>                               
+                            </div>   
+                        </div>
+                    </div>
+                    <p class="body-text">
+                        The book summaries are so well written. I was able to grasp the main points 
+                        of 5 books in just a day. And I am listening to what I truly want to learn now. 
+                        It’s the only audiobook app that allows you to do both.
+                    </p>                        
+                </div>
+                <div class="desktop-user-review">
+                    <img src="./images/user-1.jpg" alt="user avatar 1" class="desktop-avatar">
+                    <div class="desktop-review-text">
+                        <div class="starts-and-names">
+                            <div class="user-names">
+                                <h4 class="desktop-user-name">Joshua Watson</h4>
+                            </div>                             
+                            <div class="stars">
+                                <svg class="star" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg class="star" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg class="star" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg class="star" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg class="star" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>                               
+                            </div>   
+                        </div>
+                        <p class="body-text">
+                            The book summaries are so well written. I was able to grasp the main points 
+                            of 5 books in just a day. And I am listening to what I truly want to learn now. 
+                            It’s the only audiobook app that allows you to do both.
+                        </p>                         
+                    </div>
+                </div>
+                <div class="mobile-user-review">        
+                        <div class="mobile-user-info">
+                            <img src="./images/user-2-phone.jpg" alt="user avatar 2" class="mobile-avatar">
+                            <div class="starts-and-names">
+                                <div class="user-names">
+                                    <h4 class="mobile-user-name">Emily Lee</h4>
+                                </div>                                 
+                                <div class="stars">
+                                    <svg class="star" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                        <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                    </svg>
+                                    <svg class="star" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                        <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                    </svg>
+                                    <svg class="star" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                        <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                    </svg>
+                                    <svg class="star" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                        <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                    </svg>
+                                    <svg class="star" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                        <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                    </svg>
+                                </div>                          
+                            </div>
+                        </div>
+                        <p class="body-text">
+                            Great app, easy to use. It’s perfect listening material when you do small 
+                            routines during the day. I listen to it during my lunch break, 
+                            before bedtime and while I am doing chores. Great design too.
+                        </p>                                            
+                </div>
+                <div class="desktop-user-review">
+                    <img src="./images/user-2.jpg" alt="user avatar 2" class="desktop-avatar"> 
+                    <div class="desktop-review-text">
+                        <div class="starts-and-names">
+                            <div class="user-names">
+                                <h4 class="desktop-user-name">Emily Lee</h4>
+                            </div>                                 
+                            <div class="stars">
+                                <svg class="star" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg class="star" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg class="star" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg class="star" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                                <svg class="star" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/>
+                                </svg>
+                            </div>                          
+                        </div>
+                        <p class="body-text">
+                            Great app, easy to use. It’s perfect listening material when you do small 
+                            routines during the day. I listen to it during my lunch break, 
+                            before bedtime and while I am doing chores. Great design too.
+                        </p>                        
+                    </div>
+                </div>
+                <button class="btn"><a href="register.html">Start free trial</a></button>
+            </div>
+        </div>
+        <div class="catogories">
+            <div class="container">
+                <div class="popular">
+                    <h2>Most Popular</h2>
+                    <div class="book-slider-with-arrows-container">
+                        <div class="book-slider-with-arrows">
+                            <button class="arrow book-slider-nav-arrow-left" disabled>
+                                <svg class="left-arrow-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"/>
+                                </svg>
+                            </button>
+                            <div class="book-display">
+                                <div class="book-display-container">
+                                    <div class="book-card">
+                                        <picture>
+                                            <source srcset="./images/webp/the-midnight-library.webp" type="image/webp">
+                                            <source srcset="./images/the-midnight-library-62KB.jpg" type="image/jpg">
+                                            <img src="./images/the-midnight-library-62KB.jpg" alt="the Midnight Library" class="books">
+                                        </picture> 
+                                        <div class="book-info">
+                                            <h5 class="book-title">The Midnight Library</h5>
+                                            <p class="author">Matt Haig</p>
+                                        </div>                                                       
+                                    </div>
+                                    <div class="book-card">
+                                        <picture>
+                                            <source srcset="./images/webp/green-light.webp" type="image/webp">
+                                            <source srcset="./images/green-light-46KB.jpg" type="image/jpg">
+                                            <img src="./images/green-light-46KB.jpg" alt="Green Light" class="books">
+                                        </picture>
+                                        <div class="book-info">
+                                            <h5 class="book-title">Greenlights</h5>
+                                            <p class="author">Matthew McConaughey</p>
+                                        </div>                            
+                                    </div>
+                                    <div class="book-card">
+                                        <picture>
+                                            <source srcset="./images/webp/harry-potter-and-the-sorcerer's-stone.webp" type="image/webp">
+                                            <source srcset="./images/harry-potter-and-the-sorcerer's-stone.jpg" type="image/jpg">
+                                            <img src="./images/harry-potter-and-the-sorcerer's-stone.jpg" alt="Harry Potter and the Socerer's Stone" class="books">
+                                        </picture> 
+                                        <div class="book-info">
+                                            <h5 class="book-title">Harry Potter and the Sorcerer's Stone</h5>
+                                            <p class="author">J.K. Rowling</p>
+                                        </div>                                                        
+                                    </div>
+                                    <div class="book-card">
+                                        <picture>
+                                            <source srcset="./images/webp/project-hail-mary.webp" type="image/webp">
+                                            <source srcset="./images/project-hail-mary-68KB.jpg" type="image/jpg">
+                                            <img src="./images/project-hail-mary-68KB.jpg" alt="Hail Mary" class="books">
+                                        </picture>  
+                                        <div class="book-info">
+                                            <h5 class="book-title">Hail Mary</h5>
+                                            <p class="author">Andy Weir</p>
+                                        </div>                                                       
+                                    </div>
+                                    <div class="book-card">
+                                        <picture>
+                                            <source srcset="./images/webp/american-marxism.webp" type="image/webp">
+                                            <source srcset="./images/american-marxism-63KB.jpg" type="image/jpg">
+                                            <img src="./images/american-marxism-63KB.jpg" alt="American Marxism" class="books">
+                                        </picture> 
+                                        <div class="book-info">
+                                            <h5 class="book-title">American Marxism</h5>
+                                            <p class="author">Mark R. Levin</p>
+                                        </div>                                                           
+                                    </div>
+                                    <div class="book-card">
+                                        <picture>
+                                            <source srcset="./images/webp/rich-dad-poor-dad.webp" type="image/webp">
+                                            <source srcset="./images/rich-dad-poor-dad.jpg" type="image/jpg">
+                                            <img src="./images/rich-dad-poor-dad.jpg" alt="Rich Dad Poor Dad" class="books">
+                                        </picture>  
+                                        <div class="book-info">
+                                            <h5 class="book-title">Rich Dad Poor Dad</h5>
+                                            <p class="author">Robert T. Kiyosaki</p>
+                                        </div>                                                       
+                                    </div>
+                                    <div class="book-card">
+                                        <picture>
+                                            <source srcset="./images/webp/what-if.webp" type="image/webp">
+                                            <source srcset="./images/what-if.jpg" type="image/jpg">
+                                            <img src="./images/what-if.jpg" alt="What If" class="books">
+                                        </picture> 
+                                        <div class="book-info">
+                                            <h5 class="book-title">What If</h5>
+                                            <p class="author">Steve L. Robbins PhD</p>
+                                        </div>                                                         
+                                    </div>
+                                    <div class="book-card">
+                                        <picture>
+                                            <source srcset="./images/webp/what-to-do-when-you-don't-know-what-to-do.webp" type="image/webp">
+                                            <source srcset="./images/what-to-do-when-you-don't-know-what-to-do.jpg" type="image/jpg">
+                                            <img src="./images/what-to-do-when-you-don't-know-what-to-do.jpg" alt="What to Do When You Don't Know What to Do" class="books">
+                                        </picture> 
+                                        <div class="book-info">
+                                            <h5 class="book-title">What to do When You Don't Know What to do</h5>
+                                            <p class="author">Dr. David Jeremiah</p>
+                                        </div>                             
+                                    </div>
+                                    <div class="book-card">
+                                        <picture>
+                                            <source srcset="./images/webp/blink.webp" type="image/webp">
+                                            <source srcset="./images/blink.jpg" type="image/jpg">
+                                            <img src="./images/blink.jpg" alt="Blink" class="books">
+                                        </picture> 
+                                        <div class="book-info">
+                                            <h5 class="book-title">Blink</h5>
+                                            <p class="author">Malcolm Gladwell</p>
+                                        </div>                             
+                                    </div>
+                                    <div class="book-card">
+                                        <picture>
+                                            <source srcset="./images/webp/surrounded-by-idiots.webp" type="image/webp">
+                                            <source srcset="./images/surrounded-by-idiots.jpg" type="image/jpg">
+                                            <img src="./images/surrounded-by-idiots.jpg" alt="Surrounded by Idiots" class="books">
+                                        </picture> 
+                                        <div class="book-info">
+                                            <h5 class="book-title">Surrounded by Idiots</h5>
+                                            <p class="author">Thomas Erikson</p>
+                                        </div>                              
+                                    </div>
+                                    <div class="book-card">
+                                        <picture>
+                                            <source srcset="./images/webp/nerve.webp" type="image/webp">
+                                            <source srcset="./images/nerve.jpg" type="image/jpg">
+                                            <img src="./images/nerve.jpg" alt="Nerve: Adventures in the Science of Fear" class="books">
+                                        </picture> 
+                                        <div class="book-info">
+                                            <h5 class="book-title">Nerve<span>: Adventures in the Science of Fear</span></h5>
+                                            <p class="author">Eva Holland</p>
+                                        </div>                              
+                                    </div> 
+                                    <div class="book-card">
+                                        <div class="book-card-link">
+                                                <a href="register.html">Get access to<br> all books in <br><strong>Most Popular</strong></a></div>   
+                                    </div>                          
+                                </div>                        
+                            </div> 
+                            <button class="arrow book-slider-nav-arrow-right">
+                                <svg class="right-arrow-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/>
+                                </svg>
+                            </button>                       
+                        </div>                        
+                    </div>
+                </div>
+                <div class="new">
+                    <h2>New arrival</h2>
+                    <div class="book-slider-with-arrows-container">
+                        <div class="book-slider-with-arrows">
+                            <button class="arrow book-slider-nav-arrow-left" disabled>
+                                <svg class="left-arrow-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"/>
+                                </svg>
+                            </button>
+                            <div class="book-display">
+                                <div class="book-display-container">
+                                    <div class="book-card">
+                                    <picture>
+                                            <source srcset="./images/webp/controlling-words-controlling-minds.webp" type="image/webp">
+                                            <source srcset="./images/webp/controlling-words-controlling-minds-54KB.jpg" type="image/jpg">
+                                            <img src="./images/controlling-words-controlling-minds-54KB.jpg" alt="Speechless: Coltroling Words, Controlling Minds" class="books">
+                                        </picture> 
+                                        <div class="book-info">
+                                            <h5 class="book-title">Speechless<span>: Coltroling Words, Controlling Minds</span></h5>
+                                            <p class="author">Michael Knowles</p>
+                                        </div>
+                                    </div>
+                                    <div class="book-card">
+                                        <picture>
+                                            <source srcset="./images/webp/how-word-is-passed.webp" type="image/webp">
+                                            <source srcset="./images/how-word-is-passed-53KB.jpg" type="image/jpg">
+                                            <img src="./images/how-word-is-passed-53KB.jpg" alt="How the Word is Passed" class="books">
+                                        </picture>
+                                        <div class="book-info">
+                                            <h5 class="book-title">How the Word is Passed</h5>
+                                            <p class="author">Clint Smith</p>
+                                        </div>
+                                    </div>
+                                    <div class="book-card">
+                                        <picture>
+                                            <source srcset="./images/webp/the-fisherman's-son.webp" type="image/webp">
+                                            <source srcset="./images/the-fisherman's-son-59KB.jpg" type="image/jpg">
+                                            <img src="./images/the-fisherman's-son-59KB.jpg" alt="The Fisherman's Son" class="books">
+                                        </picture> 
+                                        <div class="book-info">
+                                            <h5 class="book-title">The Fisherman's Son</h5>
+                                            <p class="author">Ramón Navarro,</p>
+                                            <p class="author">Chris Malloy,</p>
+                                            <p class="author">Josh Berry</p>
+                                        </div>                               
+                                    </div>
+                                    <div class="book-card">
+                                        <picture>
+                                            <source srcset="./images/webp/here-right-matters.webp" type="image/webp">
+                                            <source srcset="./images/here-right-matters-40KB.jpg" type="image/jpg">
+                                            <img src="./images/here-right-matters-40KB.jpg" alt="Here, Right Matters" class="books">
+                                        </picture>
+                                        <div class="book-info">
+                                            <h5 class="book-title">Here, Right Matters</h5>
+                                            <p class="author">Alexander S. Vindman</p>
+                                        </div>                                
+                                    </div>
+                                    <div class="book-card">
+                                        <picture>
+                                            <source srcset="./images/webp/the-cellist.webp" type="image/webp">
+                                            <source srcset="./images/the-cellist-56KB.jpg" type="image/jpg">
+                                            <img src="./images/the-cellist-56KB.jpg" alt="The Cellist" class="books">
+                                        </picture>
+                                        <div class="book-info">
+                                            <h5 class="book-title">The Cellist</h5>
+                                            <p class="author">Daniel Silva</p>
+                                        </div>                                     
+                                    </div>
+                                    <div class="book-card">
+                                        <picture>
+                                            <source srcset="./images/webp/all-the-light-we-can-not-see.webp" type="image/webp">
+                                            <source srcset="./images/all-the-light-we-can-not-see.jpg" type="image/jpg">
+                                            <img src="./images/all-the-light-we-can-not-see.jpg" alt="All the Light We Can Not See" class="books">
+                                        </picture>  
+                                        <div class="book-info">
+                                            <h5 class="book-title">All the Light We Can Not See</h5>
+                                            <p class="author">Anthony Doerr</p>
+                                        </div>                               
+                                    </div>
+                                    <div class="book-card">
+                                        <picture>
+                                            <source srcset="./images/webp/that's-not-what-happened.webp" type="image/webp">
+                                            <source srcset="./images/that's-not-what-happened.jpg" type="image/jpg">
+                                            <img src="./images/that's-not-what-happened.jpg" alt="That's Not What Happened" class="books">
+                                        </picture> 
+                                        <div class="book-info">
+                                            <h5 class="book-title">That's Not What Happened</h5>
+                                            <p class="author">Kody Keplinger</p>
+                                        </div>                                                                 
+                                    </div>
+                                    <div class="book-card">
+                                        <picture>
+                                            <source srcset="./images/webp/the-people-we-keep.webp" type="image/webp">
+                                            <source srcset="./images/the-people-we-keep.jpg" type="image/jpg">
+                                            <img src="./images/the-people-we-keep.jpg" alt="The People We Keep" class="books">
+                                        </picture> 
+                                        <div class="book-info">
+                                            <h5 class="book-title">The People We Keep</h5>
+                                            <p class="author">Allison Larkin</p>
+                                        </div>                                                                 
+                                    </div>
+                                    <div class="book-card">
+                                        <picture>
+                                            <source srcset="./images/webp/where-the-crawdads-sing.webp" type="image/webp">
+                                            <source srcset="./images/where-the-crawdads-sing.jpg" type="image/jpg">
+                                            <img src="./images/where-the-crawdads-sing.jpg" alt="Where the Crawdads Sing" class="books">
+                                        </picture>
+                                        <div class="book-info">
+                                            <h5 class="book-title">Where the Crawdads Sing</h5>
+                                            <p class="author">Delia Owens</p>
+                                        </div>                                                                 
+                                    </div>
+                                    <div class="book-card">
+                                        <picture>
+                                            <source srcset="./images/webp/when-no-one-is-watching.webp" type="image/webp">
+                                            <source srcset="./images/when-no-one-is-watching.jpg" type="image/jpg">
+                                            <img src="./images/when-no-one-is-watching.jpg" alt="When No One is Watching" class="books">
+                                        </picture> 
+                                        <div class="book-info">
+                                            <h5 class="book-title">When No One is Watching</h5>
+                                            <p class="author">Alyssa Cole</p>
+                                        </div>                                                                
+                                    </div>
+                                    <div class="book-card">
+                                        <picture>
+                                            <source srcset="./images/webp/all-the-money-in-the-world.webp" type="image/webp">
+                                            <source srcset="./images/all-the-money-in-the-world.jpg" type="image/jpg">
+                                            <img src="./images/all-the-money-in-the-world.jpg" alt="All the Money in the World" class="books">
+                                        </picture> 
+                                        <div class="book-info">
+                                            <h5 class="book-title">All the Money in the World<span>: How the Forbes 400 Make--and Spend--Their Fortunes</span></h5>
+                                            <p class="author">Peter W. Bernstein,</p>
+                                            <p class="author">Annalyn Swan</p>
+                                        </div>                              
+                                    </div> 
+                                    <div class="book-card">
+                                        <div class="book-card-link">
+                                                <a href="register.html">Get access to<br> all books in <br><strong>Most Popular</strong></a></div>   
+                                    </div> 
+                                </div>                        
+                            </div>
+                            <button class="arrow book-slider-nav-arrow-right">
+                                <svg class="right-arrow-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/>
+                                </svg>
+                            </button>                          
+                        </div>                        
+                    </div>                    
+                </div> 
+                <button class="btn"><a href="register.html">Start free trial</a></button>
+                <p class="unlock">Unlock access to all catogories</p>          
+            </div>
+        </div> 
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-links-wrapper">
+                <div class="footer-links">
+                    <h5>Company</h5>
+                    <ul class="footer-link-list">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Career</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links mid-column-links">
+                    <h5>Useful Links</h5>
+                    <ul class="footer-link-list">
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Gift Card</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Accessibility</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h5>Policies</h5>
+                    <ul class="footer-link-list">
+                        <li><a href="#">Privacy policy</a></li>                        
+                        <li><a href="#">Cookie settings</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li id="attributions"><a href="attribution.html">Attributions</a></li>
+                    </ul>                    
+                </div>
+                <div class="footer-links">
+                    <h5>Free Apps</h5>
+                    <ul class="footer-badges">
+                        <li><a href="#"><img src="./images/apple-app-store.svg" alt="Download at App Store" class="badge-button"></a></li>
+                        <li><a href="#"><img src="./images/google-play.svg" alt="Get it at Google Play" class="badge-button"></a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="social-media-wrapper">
+                <div class="social-media">
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-3 7h-1.924c-.615 0-1.076.252-1.076.889v1.111h3l-.238 3h-2.762v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z"/>
+                        </svg>                        
+                    </a>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z"/>
+                        </svg>                        
+                    </a>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                        </svg>                        
+                    </a>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                            <path d="M15.233 5.488c-.843-.038-1.097-.046-3.233-.046s-2.389.008-3.232.046c-2.17.099-3.181 1.127-3.279 3.279-.039.844-.048 1.097-.048 3.233s.009 2.389.047 3.233c.099 2.148 1.106 3.18 3.279 3.279.843.038 1.097.047 3.233.047 2.137 0 2.39-.008 3.233-.046 2.17-.099 3.18-1.129 3.279-3.279.038-.844.046-1.097.046-3.233s-.008-2.389-.046-3.232c-.099-2.153-1.111-3.182-3.279-3.281zm-3.233 10.62c-2.269 0-4.108-1.839-4.108-4.108 0-2.269 1.84-4.108 4.108-4.108s4.108 1.839 4.108 4.108c0 2.269-1.839 4.108-4.108 4.108zm4.271-7.418c-.53 0-.96-.43-.96-.96s.43-.96.96-.96.96.43.96.96-.43.96-.96.96zm-1.604 3.31c0 1.473-1.194 2.667-2.667 2.667s-2.667-1.194-2.667-2.667c0-1.473 1.194-2.667 2.667-2.667s2.667 1.194 2.667 2.667zm4.333-12h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm.952 15.298c-.132 2.909-1.751 4.521-4.653 4.654-.854.039-1.126.048-3.299.048s-2.444-.009-3.298-.048c-2.908-.133-4.52-1.748-4.654-4.654-.039-.853-.048-1.125-.048-3.298 0-2.172.009-2.445.048-3.298.134-2.908 1.748-4.521 4.654-4.653.854-.04 1.125-.049 3.298-.049s2.445.009 3.299.048c2.908.133 4.523 1.751 4.653 4.653.039.854.048 1.127.048 3.299 0 2.173-.009 2.445-.048 3.298z"/>
+                        </svg>                        
+                    </a>
+                </div>                
+            </div>
+            <span class="license">© 2021 Audio Captain. All right reserved</span>   
+        </div>
+    </footer>
+</body>
+</html>

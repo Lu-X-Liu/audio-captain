@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup / Login</title>
+    <link rel="shortcut icon" type="image/svg" href="./images/favicon.svg">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/register.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Noto+Sans+TC:wght@500;700&display=swap" rel="stylesheet">
+    <script async src="js/register.js"></script>
+</head>
+<body>
+    <header class="register-header">
+        <div class="container">
+            <a href="index.html"><img id="logo" src="./images/ac_logo.svg"></a>
+        </div>   
+    </header>
+    <div class="wrapper">
+        <div class="title-tabs-container">
+            <div class="title-tab signup">Signup free trial</div>
+            <div class="title-tab login">Login to Audio Captain</div>
+        </div>
+        <div class="form-container">
+            <div class="slide-controls">
+                <input type="radio" name="slide" id="signup" checked>
+                <input type="radio" name="slide" id="login">
+                <label for="signup" class="slide signup">Signup</label>
+                <label for="login" class="slide login">Login</label>
+                <div class="slider-tab"></div>
+            </div>
+            <div class="form-inner">
+                <form action="#" class="signup">
+                    <div class="field">
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Password" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Confirm password" required>
+                    </div>
+                    <div class="field btn-container">
+                        <div class="btn-layer"></div>
+                        <button class="btn" type="reset"><a>Signup</a></button>
+                    </div>
+                    <div class="login-link">
+                        Already a member? <a href="">Login</a>
+                    </div>
+                </form>
+                <form action="#" class="login">
+                    <div class="field">
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Password" required>
+                    </div>
+                    <div class="forgot-link">
+                        <a href="#" class="forgot">Forgot Password?</a>
+                    </div>
+                    <div class="field btn-container">
+                        <div class="btn-layer"></div>
+                        <button class="btn" type="reset"><a>Login</a></button>
+                    </div>
+                    <div class="signup-link">
+                        Not a member? <a href="">Signup now</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="bg-pop-up"> <!--pop up window-->
+        <div class="forgot-pop-up">
+            <div class="close-mark-wrapper">
+                <svg class="close-mark" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+                    <path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/>
+                </svg>                
+            </div>
+            <div class="pop-up-content-wrapper">
+                <div class="fogot-title">Forgot Your Passowrd?</div>
+                <p class="forgot-intro">
+                    Type in the email address of your account in the field below 
+                    and we will send you a link to reset your pass word: 
+                </p>
+                <form action="" class="forgot-form">
+                    <input type="email" placeholder="Email address" name="reset" required>
+                    <button class="btn" type="button">Send reset link</button>
+                </form>                
+            </div>                
+        </div>
+    </div>      
+</body>
+</html>

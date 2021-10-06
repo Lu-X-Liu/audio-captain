@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --clr-brand-orange: #D97111;
+    --clr-brand-green: #019546;
+
+    --clr-dark: #2B1705;
+    --clr-mid: #F59A47;
+    --clr-light: #F3C499;
+
+    --clr-arrow-disabled: #808080;
+    --clr-arrow-activive: #1564FE;
+    --clr-footer: #E5E5E5;
+    --clr-bg-grey: #F5F5F5;
+    --clr-bright-text: #FFFFFF;
+    --clr-bright-green: #4DD486;
+    --clr-bg-warm: #F5E8DC;
+    --clr-bg-cool: #DFEBE4;
+    --clr-bg-catogories: #E4EBE7;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background: var(--clr-bg-cool);
+    font-family: Lato, -apple-system,'Open Sans', 'Helvetica Neue',  sans-serif;
+    font-size: 1rem;
+}
+
+.grid-wrapper {
+    display: grid;
+    place-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header .container {
+    height: 70px;
+    margin: 1.5rem auto 0;
+}
+
+#logo {
+    width: 181px;
+}
+
+.wrapper {
+    background: var(--clr-bg-grey);
+    width: 100%;
+    max-width: 350px;
+    padding: 0 1rem 2rem;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.attribution div {
+ text-align: center;
+ line-height: 1.5;
+}
+
+.play-icons {
+    display: block;
+    margin: 2rem auto 1rem;
+}
